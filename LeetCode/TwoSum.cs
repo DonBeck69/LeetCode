@@ -5,6 +5,9 @@ using System.Text;
 
 namespace LeetCode
 {
+    /// <summary>
+    /// unsorted, use dixtionary and check if diff exists
+    /// </summary>
     public class TwoSum
     {
         public int[] twoSum(int[] nums, int target)
@@ -69,39 +72,5 @@ namespace LeetCode
             return res;
         }
 
-        public int[] TwoSum22(int[] nums, int target)
-        {
-            int l = 0;
-            int r = 1;
-            int[] res = new int[2];
-
-            while (r < nums.Length)
-            {
-                if (nums[l] + nums[r] == target)
-                {
-                    break;
-                }
-                else if (nums[l] + nums[r] < target)
-                {
-                    if (r < nums.Length - 1)
-                    {
-                        r++;
-                    }
-                    else
-                    {
-                        l++;
-                    }
-                }
-                else
-                {
-                    l++;
-                    r = l + 1;
-                }
-            }
-
-            res[0] = l + 1;
-            res[1] = r + 1;
-            return res;
-        }
     }
 }
