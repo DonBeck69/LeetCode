@@ -1,0 +1,2 @@
+D:\Dev\LeetCode\Tschallenges\obj\Debug\Tschallenges.njsproj.CoreCompileInputs.cache
+D:\Dev\LeetCode\Tschallenges\bin\Microsoft.NodejsTools.WebRole.dll

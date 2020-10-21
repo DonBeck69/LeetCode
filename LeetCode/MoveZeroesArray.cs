@@ -27,9 +27,10 @@ namespace LeetCode
                 {
                     zeroes++;
                 }
+
                 if (nums[i - 1] == 0)
                 {
-                    if(nums[i] != 0)
+                    if (nums[i] != 0)
                     {
                         int lookBack = Math.Max(1, zeroes);
                         nums[i - lookBack] = nums[i];
