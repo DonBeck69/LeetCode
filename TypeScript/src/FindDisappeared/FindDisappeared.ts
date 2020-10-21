@@ -30,7 +30,7 @@ export class FindDisappeared {
         return Array.from(numSet);
     };
 
-
+    // one day, o(n) complex and space... sigh!
     public findDisappearedNumbers2(nums: number[]): number[] {
         nums = nums.sort((a, b) => a - b);
         let high: number = nums.length - 1;
