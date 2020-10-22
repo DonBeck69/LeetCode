@@ -4,7 +4,7 @@ import { ListNode } from "../src/merge_two_arrays/ListNode";
 import { MergeSortedList } from "../src/merge_two_arrays/MergeSortedList";
 
 
-describe('MergeArrays', () => {
+describe('MergeLists', () => {
     it("l1 null l2 null", () => {
         let merge: MergeSortedList = new MergeSortedList();
         let node1: ListNode = null;
