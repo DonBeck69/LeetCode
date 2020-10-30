@@ -30,13 +30,6 @@ describe('MergeArrays', () => {
         let res: Array<number> = merge.merge(nums1, 0, nums2, 1);
         expect(res[0]).to.deep.equal(1);
     });
-    it("l1=[] l2=[]", () => {
-        let merge: MergeArrays = new MergeArrays();
-        let nums1: Array<number> = [];
-        let nums2: Array<number> = [];
-        let res: Array<number> = merge.merge(nums1, 1, nums2, 1);
-        expect(res).to.deep.equal([]);
-    });
     it("l1=[] l2=[1,2]", () => {
         let merge: MergeArrays = new MergeArrays();
         let nums1: Array<number> = [];

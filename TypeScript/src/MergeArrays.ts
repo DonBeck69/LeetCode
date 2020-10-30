@@ -19,6 +19,32 @@ export class MergeArrays {
             process = false;
         }
 
+        for (let i: number = m; i < m + n; i++)
+        {
+            nums1[i] = nums2[i-m];
+        }
+
+        nums1 = nums1.sort((a: number, b: number) => a - b);
+
+        return nums1;
+    };
+
+    public merge2(nums1: number[], m: number, nums2: number[], n: number): Array<number> {
+        let process: boolean = true;
+        if ((m === 0 || nums1.length === 0) && (n === 0 || nums2.length === 0)) {
+            nums1 = [];
+            process = false;
+        }
+
+        if (m === 0 || nums1.length === 0) {
+            nums1 = nums2;
+            process = false;
+        }
+
+        if (n === 0 || nums2.length === 0) {
+            process = false;
+        }
+
         if (process) {
             let mi: number = 0;
             let i: number = 1;

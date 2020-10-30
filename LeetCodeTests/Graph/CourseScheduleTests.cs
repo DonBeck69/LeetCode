@@ -55,19 +55,6 @@ namespace LeetCode.Graph.Tests
         }
 
 
-        //[TestMethod()]
-        //public void CanFinishTest5()
-        //{
-        //    CourseSchedule courseSchedule = new CourseSchedule();
-        //    int[][] pre = new int[4][];
-        //    pre[0] = new int[] { 0, 1 };
-        //    pre[1] = new int[] { 1, 2 };
-        //    pre[2] = new int[] { 2, 3 };
-        //    pre[3] = new int[] { 3, 1 };
-        //    bool res = courseSchedule.CanFinish(4, pre);
-        //    Assert.IsTrue(res);
-        //}
-
         [TestMethod()]
         public void CanFinishTest6()
         {

@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\LeetCode\\LeetCode\\LeetCode.csproj": {}
+    "/Users/donbeck69/Documents/GitHub/LeetCode/LeetCode/LeetCode.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\LeetCode\\LeetCode\\LeetCode.csproj": {
+    "/Users/donbeck69/Documents/GitHub/LeetCode/LeetCode/LeetCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\LeetCode\\LeetCode\\LeetCode.csproj",
+        "projectUniqueName": "/Users/donbeck69/Documents/GitHub/LeetCode/LeetCode/LeetCode.csproj",
         "projectName": "LeetCode",
-        "projectPath": "D:\\Dev\\LeetCode\\LeetCode\\LeetCode.csproj",
-        "packagesPath": "C:\\Users\\donov\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\LeetCode\\LeetCode\\obj\\",
+        "projectPath": "/Users/donbeck69/Documents/GitHub/LeetCode/LeetCode/LeetCode.csproj",
+        "packagesPath": "/Users/donbeck69/.nuget/packages/",
+        "outputPath": "/Users/donbeck69/Documents/GitHub/LeetCode/LeetCode/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\donov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/donbeck69/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }

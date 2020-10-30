@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VFhiJNZYFEvNvzW3mvBoA5C9gi1sblTVdtTEp5rodf1jY0JKu2ca+06UdCCbABtMzMhd5YNz0/Ce5JyEJlAdWQ==",
+  "dgSpecHash": "nGXHwygdYXUVnInlELD/6u35eY3lh4/fR3KnvgaybaqKU76HeAtIQRTxWfgqppW3+f32o3nHtpZOREpf3FpjnA==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\LeetCode\\LeetCode\\LeetCode.csproj",
+  "projectFilePath": "/Users/donbeck69/Documents/GitHub/LeetCode/LeetCode/LeetCode.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
