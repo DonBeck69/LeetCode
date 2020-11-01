@@ -1,20 +1,21 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="LeetCodeTests/Graph/CourseScheduleTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LeetCodeTests/BinaryTree/MergeTwoTests.cs">
     <Files>
-      <File FileName="LeetCodeTests/Graph/CourseScheduleTests.cs" Line="15" Column="1" />
-      <File FileName="LeetCode/Graph/CourseSchedule.cs" Line="65" Column="1" />
-      <File FileName="../../../../../usr/local/share/dotnet/sdk/3.1.302/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="234" Column="5" />
+      <File FileName="LeetCode/BinaryTree/MergeTwo.cs" Line="1" Column="1" />
+      <File FileName="LeetCode/BinaryTree/TreeNode.cs" Line="1" Column="1" />
+      <File FileName="LeetCodeTests/BinaryTree/MergeTwoTests.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LeetCode" expanded="True">
             <Node name="LeetCode" expanded="True">
+              <Node name="BinaryTree" expanded="True" />
               <Node name="Graph" expanded="True" />
             </Node>
             <Node name="LeetCodeTests" expanded="True">
-              <Node name="Graph" expanded="True">
-                <Node name="CourseScheduleTests.cs" selected="True" />
+              <Node name="BinaryTree" expanded="True">
+                <Node name="MergeTwoTests.cs" selected="True" />
               </Node>
             </Node>
           </Node>

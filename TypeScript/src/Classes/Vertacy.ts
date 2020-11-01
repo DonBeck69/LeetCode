@@ -1,10 +1,10 @@
 export class Vertacy {
-    constructor (vertacy: Partial<Vertacy>){
-        this.Edges = new Set<number>();
+    constructor (init?: Partial<Vertacy>){
+        Object.assign(this, init);
     }
 
     public ID: number;
-    public Edges: Set<number>;
-    public Visited: boolean;
-    public Used: boolean;
+    public Edges: Set<number> = new Set<number>();
+    public Visited: boolean = false;
+    public Used: boolean = false;
 }

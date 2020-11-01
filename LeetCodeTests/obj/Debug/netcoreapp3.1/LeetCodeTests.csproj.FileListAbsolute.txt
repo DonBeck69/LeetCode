@@ -94,5 +94,3 @@ D:/Dev/LeetCode/LeetCodeTests/obj/Debug/netcoreapp3.1/LeetCodeTests.csproj.CopyC
 D:/Dev/LeetCode/LeetCodeTests/obj/Debug/netcoreapp3.1/LeetCodeTests.dll
 D:/Dev/LeetCode/LeetCodeTests/obj/Debug/netcoreapp3.1/LeetCodeTests.pdb
 D:/Dev/LeetCode/LeetCodeTests/obj/Debug/netcoreapp3.1/LeetCodeTests.genruntimeconfig.cache
-/Users/donbeck69/Documents/GitHub/LeetCode/LeetCodeTests/obj/Debug/netcoreapp3.1/LeetCodeTests.dll
-/Users/donbeck69/Documents/GitHub/LeetCode/LeetCodeTests/obj/Debug/netcoreapp3.1/LeetCodeTests.pdb

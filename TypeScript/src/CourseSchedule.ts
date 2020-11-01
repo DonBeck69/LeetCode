@@ -7,6 +7,7 @@ export class CourseSchedule {
         for (let i: number = 0; i < numCourses; i++)
         {
             let vertacy: Vertacy = new Vertacy({ID: i});
+            //vertacy.ID = i;
             vertacies.push(vertacy);
         }
 
