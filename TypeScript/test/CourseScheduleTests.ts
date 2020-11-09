@@ -19,6 +19,7 @@ describe('Course schedue tests', () => {
         let res: boolean = course.CanFinish(2,pre);
         expect(res).to.deep.equal(false);
     });
+    /*
     it("course sched 3", () => {
         let course: CourseSchedule = new CourseSchedule();
         let pre: number[][]= [];
@@ -37,4 +38,5 @@ describe('Course schedue tests', () => {
         let res: boolean = course.CanFinish(2,pre);
         expect(res).to.deep.equal(false);
     });
+    */
 });
