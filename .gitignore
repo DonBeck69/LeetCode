@@ -1,4 +1,5 @@
 .git
+.vs
 LeetCode/obj
 LeetCode/bin
 LeetCodeTests/obj
