@@ -2,7 +2,7 @@
 export class LargestPerimiterTriangle{
     public LargestPerimeter(A: Array<number>): number {
         let res: number = 0;
-        A.sort();
+        A.sort((a: number, b: number) => a - b);
         let i: number = A.length - 1;
         while (i > 1){
             if(A[i - 2] + A[i - 1] <= A[i])

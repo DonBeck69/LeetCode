@@ -45,8 +45,6 @@ export class MergeSortedList {
             }
         }
 
-        //tempNode = null;
-
         return node;
     };
 

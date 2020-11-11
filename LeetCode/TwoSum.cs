@@ -39,7 +39,8 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// Winner, uses 2 step
+        /// two step
+        /// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
         /// </summary>
         /// <param name="nums"></param>
         /// <param name="target"></param>

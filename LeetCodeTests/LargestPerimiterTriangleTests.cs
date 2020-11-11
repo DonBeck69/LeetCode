@@ -31,5 +31,13 @@ namespace LeetCode.Tests
             int res = largestPerimiterTriangle.LargestPerimeter(new int[] { 3, 6, 2, 3 });
             Assert.IsTrue(res == 8);
         }
+
+        [TestMethod()]
+        public void LargestPerimeterdTest3()
+        {
+            LargestPerimiterTriangle largestPerimiterTriangle = new LargestPerimiterTriangle();
+            int res = largestPerimiterTriangle.LargestPerimeter(new int[] { 1, 2, 2, 4, 18, 8 });
+            Assert.IsTrue(res == 5);
+        }
     }
 }

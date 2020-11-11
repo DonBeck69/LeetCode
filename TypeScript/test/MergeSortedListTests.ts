@@ -7,19 +7,19 @@ import { MergeSortedList } from "../src/merge_two_arrays/MergeSortedList";
 describe('MergeLists', () => {
     it("l1 null l2 null", () => {
         let merge: MergeSortedList = new MergeSortedList();
-        let node1: ListNode = null;
-        let node2: ListNode = null;
+        let node1: ListNode | null = null;
+        let node2: ListNode | null = null;
         let res: ListNode | null = merge.mergeTwoLists(node1, node2);
         expect(res).to.deep.equal(null);
     });
 
     it("l1 null l2 is list", () => {
         let merge: MergeSortedList = new MergeSortedList();
-        let node1: ListNode = null;
-        let node2: ListNode = new ListNode();
+        let node1: ListNode | null = null;
+        let node2: ListNode | null = new ListNode();
         node2.val = 0;
         let res: ListNode | null = merge.mergeTwoLists(node1, node2);
-        expect(res.val).to.deep.equal(0);
+        expect(res?.val).to.deep.equal(0);
     });
 
     it("l1=[1,2,4] l2=[1,3,4]", () => {
@@ -44,6 +44,6 @@ describe('MergeLists', () => {
         rn1.next = rn3;
         
         let res: ListNode | null = merge.mergeTwoLists(ln1, rn1);
-        expect(res.next.next.val).to.deep.equal(2);
+        expect(res?.next?.next?.val).to.deep.equal(2);
     });
 });
