@@ -20,6 +20,7 @@ export class MinStack {
     }
 
     public getMin(): number {
+        // the three dots ... break up the array [1, 2, 3] for Math.min into 1, 2, 3 
         return Math.min(...this._stack);
     }
 }
